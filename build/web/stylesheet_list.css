@@ -1,0 +1,94 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url(img/email-pattern.png);
+}
+ul{
+    margin-left: 65px ;
+    display: block;
+    
+}
+ul li{
+    
+    padding:10px;
+    list-style: none;
+    
+    cursor: pointer;
+    display: inline-block;
+    
+  
+}ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+ul li a:hover{
+    transition: .1s;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+}
+nav{
+    width: 100%;
+    height: 53px;
+    background-color:rgb(0, 89, 255);
+}
+.image1{
+    float: left;
+    width: 50px;
+    background-color:transparent;
+    border-radius: 5px;
+    background-size: cover; 
+    margin: 5px 20px;
+}
+
+* {
+  font-family: sans-serif; 
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table thead tr {
+  background-color: blue;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}

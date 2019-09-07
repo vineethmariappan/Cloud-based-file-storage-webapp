@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    background-image: url(img/email-pattern.png);
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+
+.container{
+   background-color: white;
+   box-shadow: 3px 2px 2px rgba(0,0,0,0.5);
+    width:300px;
+    height:200px;
+    border-radius: 2px;
+    position:absolute;
+    top:28%;
+    left:37%;
+    
+    
+}
+.field_1{
+
+    border-radius:5px;
+    border: 2px solid blue;
+}
+.field_2{
+    position:absolute;
+    top:35%;
+    left:28%;
+    border-radius:5px;
+    border: 2px solid blue;
+}
+.lbl_1{
+    left:5%;
+    position:absolute;
+}
+.lbl_1{
+    top:35%;
+    left:3%;
+}
+.btns{
+    position:absolute;
+    top:50%;
+    border: 2px solid blue;
+    color:blue;
+    font-size:15px;
+    border-radius: 7px;
+    background-color: white;
+    padding:10px 28px;
+    left:30%;
+    cursor: pointer;
+}
+.btns:hover{
+    position:absolute;
+    top:50%;
+    border: 2px solid darkblue;
+    color:darkblue;
+    font-size:15px;
+    border-radius: 7px;
+    background-color: white;
+    padding:10px 28px;
+    left:30%;
+    cursor: pointer;
+    transition:.5s;
+}
