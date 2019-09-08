@@ -10,9 +10,9 @@ import java.sql.*;
  * @author Vineeth
  */
 public class Dao {
-    static String URL="jdbc:mysql://sql12.freemysqlhosting.net/sql12303678";
-    static String uname="sql12303678";
-    static String pass="sQUPTCCLHd";
+    static String URL="jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12304436";
+    static String uname="sql12304436";
+    static String pass="Ah6kER71S1";
     public static Connection getConnection() throws SQLException, ClassNotFoundException{
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(URL,uname,pass);
